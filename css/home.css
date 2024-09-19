@@ -1,0 +1,191 @@
+@import './variable.css';
+@import './reset.css';
+
+
+/***************************
+***  Header Start Here  ****
+****************************/
+.header {
+    background-image: linear-gradient(89.99deg, rgba(133, 157, 189, 0.1725) 0.01%, rgba(133, 157, 189, 0.0425) 11.69%, rgba(133, 157, 189, 0.0475) 32.24%, rgba(133, 157, 189, 0.065) 75.04%, rgba(133, 157, 189, 0.25) 99.99%);
+    background-color: var(--color-blue-2);
+    color: var(--color-white);
+    padding: 24px 0;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+
+.header-container {
+    padding: 0 50px;
+}
+
+
+.header-area {
+    /* width: 1138px;
+    margin: 0 auto; */
+    /* gap: 384px; */
+}
+
+.header-left {
+    padding-left: 0;
+}
+
+.header-area .header-right ul {
+    width: 437px;
+}
+
+.header-area .header-right a {
+    font-weight: var(--fw-600);
+}
+
+
+
+
+/***************************
+***  Banner Start Here  ****
+****************************/
+.banner {
+    background-image: url('../image/banner-bg.jpg');
+    width: 100%;
+    height: calc(854px - 86px);
+    position: relative;
+    margin-top: 87px;
+}
+
+.banner::after {
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(230.77deg, rgba(48, 0, 101, 0.72) -43.38%, rgba(52, 87, 213, 0.72) 43.11%, rgba(52, 87, 213, 0.72) 129.61%);
+    z-index: 2;
+}
+
+.banner-area {
+    position: relative;
+    z-index: 4;
+}
+
+
+
+/* ______  Banner Left ______ */
+.banner .banner-left {
+    max-width: 573px;
+    padding-top: 105px;
+}
+
+.banner .banner-left .top {
+    color: var(--color-green);
+    text-transform: uppercase;
+    font-size: var(--fs-xs);
+    font-family: var(----font-poppins);
+    letter-spacing: 1.5px;
+    line-height: 21px;
+}
+
+.banner .top .border {
+    height: 1px;
+    width: 73px;
+    background-color: var(--color-green);
+    margin-right: 16px;
+}
+
+.banner h1 {
+    margin: 24px 0 17px 0;
+    padding-right: 50px;
+}
+
+.banner .desc {
+    color: var(--color-white);
+    line-height: 30px;
+    font-size: var(--fs-lg);
+    padding-right: 50px;
+}
+
+
+/* Search */
+.banner-left .search {
+    margin-top: 33px;
+    height: 65px;
+    width: 382px;
+    background-color: var(--color-white);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.search .btn img {
+    object-fit: none;
+    width: auto;
+}
+
+.banner-left .search input {
+    padding-left: 15px;
+    font-size: var(--fs-sm);
+}
+
+.banner-left .search input::placeholder {
+    color: var(--color-purple);
+}
+
+.banner-left .search .btn {
+    background-color: var(--color-green-light);
+    height: 65px;
+    width: 51px;
+    color: var(--color-white);
+}
+
+
+
+/* ______  Banner Right ______ */
+.banner-right img {
+    width: 740px;
+    height: 490px;
+    margin-top: 42px;
+}
+
+
+
+
+
+/* ______ Ranking ______ */
+.ranking {
+    margin-top: 44px;
+}
+
+.ranking i {
+    margin-left: -3px;
+    font-size: var(--fs-xl);
+    color: var(--color-orange);
+}
+
+.ranking .text {
+    margin-top: 19px;
+    color: var(--color-white);
+    font-weight: var(--fw-700);
+    line-height: 18px;
+}
+
+
+/* _________ Brand ________ */
+.brand {
+    margin-top: -60px;
+    background-color: var(--color-navy);
+    z-index: 5;
+    position: relative;
+    padding: 29px 0;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.brand-container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.brand img {
+    width: 115px;
+}
