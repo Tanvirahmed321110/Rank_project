@@ -23,12 +23,17 @@
     --color-gray: #2C2E39;
     --border-color: #DBDBDB;
     --placeholder-color: #D9D9D9;
+    --color-gray-off: #ECF0FF;
 
 
 
     /*_________  Section Background Color _________ */
     --body-bg: var(--color-white);
     --header-bg: var(--color-blue);
+    --packages-bg: var(--color-blue);
+    --testimonial-bg: var(--color-gray);
+    --summer-bg: var(--color-blue);
+
 
 
     /*______  Font Size  ______ */

@@ -167,15 +167,15 @@ h1 {
 }
 
 .fw-medium {
-    font-weight: var(--fw-500);
-}
-
-.fw-bold {
     font-weight: var(--fw-600);
 }
 
-.fw-bolder {
+.fw-bold {
     font-weight: var(--fw-700);
+}
+
+.fw-bolder {
+    font-weight: var(--fw-800);
 }
 
 
@@ -247,12 +247,20 @@ h1 {
     margin-top: 36px;
 }
 
+.mt-8 {
+    margin-top: 40px;
+}
+
 .mt-50 {
     margin-top: 50px;
 }
 
 .my-50 {
     margin: 50px 0;
+}
+
+.mt-90 {
+    margin: 90px;
 }
 
 
@@ -295,13 +303,13 @@ h1 {
     justify-content: center;
 }
 
-.btn .btn-pill {
+.btn.btn-pill {
     background-color: var(--color-white-off);
     border-radius: 20px;
     height: 38px;
 }
 
-.btn .btn-dark {
+.btn.btn-dark {
     background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 8px;
@@ -352,6 +360,10 @@ h1 {
 .justify-start {
     align-items: center;
     justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 /* Gap */
