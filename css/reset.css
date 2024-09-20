@@ -314,6 +314,11 @@ h1 {
     color: var(--color-white);
     border-radius: 8px;
     line-height: 24px;
+    transition: .2s ease-in-out;
+}
+
+.btn.btn-dark:hover {
+    background-color: var(--color-dark-2);
 }
 
 

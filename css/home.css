@@ -112,21 +112,24 @@
 
 
 /* Search */
-.banner-left .search {
+.banner-left .search,
+.subsribe .search {
     margin-top: 33px;
     height: 65px;
-    width: 382px;
+    max-width: 382px;
     background-color: var(--color-white);
     border-radius: 12px;
     overflow: hidden;
 }
 
-.search .btn img {
+.search .btn img,
+.subsribe .search img {
     object-fit: none;
     width: auto;
 }
 
-.banner-left .search input {
+.banner-left .search input,
+.subsribe .search input {
     padding-left: 15px;
     font-size: var(--fs-sm);
 }
@@ -135,7 +138,8 @@
     color: var(--color-purple);
 }
 
-.banner-left .search .btn {
+.banner-left .search .btn,
+.subsribe .search .btn {
     background-color: var(--color-green-light);
     height: 65px;
     width: 51px;
@@ -584,4 +588,101 @@
 .faq-item .icon.rotate {
     transform: rotate(180deg);
     transition: .2s linear;
+}
+
+
+
+
+
+
+
+/*  */
+.footer {
+    background-color: var(--color-blue);
+    padding-top: 33px;
+    padding-bottom: 54px;
+}
+
+.footer-area {
+    gap: 106px;
+    align-items: flex-start;
+}
+
+.footer-area .left {
+    width: 400px;
+}
+
+.footer-area .right {
+    flex-grow: 1;
+    gap: 68px;
+    padding-top: 100px;
+    align-items: flex-start;
+}
+
+.footer-area .nav {
+    align-items: flex-start;
+    gap: 147px;
+    width: fit-content;
+    text-wrap: nowrap;
+}
+
+.footer-area .nav a {
+    color: var(--color-white);
+}
+
+.footer-area .nav .nav-item {
+    /* width: 200px; */
+}
+
+
+
+/* subsribe */
+.footer-area .subsribe {
+    width: 291px;
+}
+
+.subsribe .search {
+    border-radius: 0;
+    height: 37px;
+}
+
+.subsribe .search .btn {
+    background-color: var(--color-black);
+    width: 44px;
+    padding: 0;
+}
+
+.subsribe .search .btn img {
+    font-size: 11px;
+}
+
+.subsribe .search input::placeholder {
+    color: #D9D9D9;
+}
+
+
+
+/* social */
+.footer-area .social {
+    margin-top: 106px;
+
+}
+
+.footer-area .social i {
+    color: var(--color-white);
+}
+
+
+
+/*_________  footer-bottom  _________ */
+.footer-bottom {
+    margin-top: 64px;
+    background-color: var(--color-white);
+}
+
+.footer-bottom .copy-right {
+    font-weight: var(--fw-400);
+    color: var(--color-dark);
+    font-size: var(--fs-sm);
+    font-family: "Inter", sans-serif;
 }
